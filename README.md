@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Global Stream Website
 
 Lightning-fast fiber internet provider website built with React, TypeScript, and Vite.
@@ -82,3 +83,6 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+=======
+# globalstream
+>>>>>>> 1d5b170ce837ce8280635f0844f1889675dc694d

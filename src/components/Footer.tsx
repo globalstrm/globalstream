@@ -31,8 +31,8 @@ export function Footer() {
               {/* Contact Phone */}
               <div className="bg-background/10 rounded-2xl p-4 border border-background/20">
                 <p className="text-background/70 text-sm mb-2">Call us now</p>
-                <a href="tel:8559450333" className="text-background text-2xl font-black hover:text-background/80 transition-colors">
-                  (855) 945-0333
+                <a href="tel:8556837625" className="text-background text-2xl font-black hover:text-background/80 transition-colors">
+                  (855) 683-7625
                 </a>
                 <p className="text-background/60 text-xs mt-2">24/7 Support Available</p>
               </div>

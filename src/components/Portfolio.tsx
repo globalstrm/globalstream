@@ -125,9 +125,9 @@ export function Portfolio() {
                       ? 'bg-accent-blue hover:bg-accent-blue/90 text-white' 
                       : 'bg-foreground hover:bg-foreground/90 text-background'
                   }`}
-                  onClick={() => window.location.href = 'tel:8559450333'}
+                  onClick={() => window.location.href = 'tel:8556837625'}
                 >
-                  Call (855) 945-0333
+                  Call (855) 683-7625
                 </Button>
               </div>
             </div>

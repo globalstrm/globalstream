@@ -52,7 +52,7 @@ export function RefundPolicy() {
                 To request a refund, please contact our customer service team:
               </p>
               <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-                <li>Call us at <a href="tel:8559450333" className="text-accent-blue hover:underline">(855) 945-0333</a></li>
+                <li>Call us at <a href="tel:8556837625" className="text-accent-blue hover:underline">(855) 683-7625</a></li>
                 <li>Provide your account number and reason for cancellation</li>
                 <li>Schedule equipment return (if applicable)</li>
                 <li>Confirm your refund processing details</li>
@@ -100,7 +100,7 @@ export function RefundPolicy() {
               </p>
               <p className="text-muted-foreground mt-4">
                 <strong>Global Stream Customer Service</strong><br />
-                Phone: <a href="tel:8559450333" className="text-accent-blue hover:underline">(855) 945-0333</a><br />
+                Phone: <a href="tel:8556837625" className="text-accent-blue hover:underline">(855) 683-7625</a><br />
                 Available 24/7
               </p>
             </section>

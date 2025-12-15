@@ -63,9 +63,9 @@ const CoveragePage = () => {
                       className="w-full pl-12 pr-4 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-accent-blue"
                     />
                   </div>
-                  <a href="tel:8559450333">
+                  <a href="tel:8556837625">
                     <Button className="bg-accent-blue hover:bg-accent-blue/90 text-white font-semibold px-8 py-4">
-                      Call (855) 945-0333
+                      Call (855) 683-7625
                     </Button>
                   </a>
                 </div>

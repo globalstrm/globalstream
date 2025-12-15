@@ -124,10 +124,10 @@ export function Hero() {
 
             <div className="flex items-center space-x-3 relative">
               <a
-                href="tel:8559450333"
+                href="tel:8556837625"
                 className="hidden sm:block bg-accent-blue backdrop-blur-sm text-white font-semibold px-6 py-3 rounded-md hover:bg-accent-blue/90 gentle-animation ml-4"
               >
-                (855) 945-0333
+                (855) 683-7625
               </a>
 
               <button
@@ -189,11 +189,11 @@ export function Hero() {
             </div>
 
             <a
-              href="tel:8559450333"
+              href="tel:8556837625"
               className="bg-accent-blue text-white font-semibold px-6 py-3 rounded-lg hover:bg-accent-blue/90 active:bg-accent-blue/80 gentle-animation mt-8 text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              (855) 945-0333
+              (855) 683-7625
             </a>
           </div>
         </div>
@@ -241,10 +241,10 @@ export function Hero() {
                 className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4"
               >
                 <a
-                  href="tel:8559450333"
+                  href="tel:8556837625"
                   className="group bg-accent-blue hover:bg-accent-blue/90 text-white font-bold px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-accent-blue/50 text-center flex items-center justify-center gap-2"
                 >
-                  Call (855) 945-0333
+                  Call (855) 683-7625
                   <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 </a>
                 <Link

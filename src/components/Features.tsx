@@ -139,8 +139,8 @@ export function Features() {
                   </div>
 
                   {/* CTA Link */}
-                  <a href="tel:8559450333" className={`text-${feature.color} font-semibold inline-flex items-center gap-2 group-hover:gap-3 transition-all`}>
-                    Call (855) 945-0333
+                  <a href="tel:8556837625" className={`text-${feature.color} font-semibold inline-flex items-center gap-2 group-hover:gap-3 transition-all`}>
+                    Call (855) 683-7625
                     <ArrowRight className="w-4 h-4" />
                   </a>
                 </div>

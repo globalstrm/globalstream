@@ -7,7 +7,7 @@ Lightning-fast fiber internet provider website built with React, TypeScript, and
 
 Global Stream provides ultra-fast fiber internet with speeds up to 10 Gbps, no contracts, 24/7 support, and 99.9% uptime guarantee.
 
-**Contact**: (855) 945-0333
+**Contact**: (855) 683-7625
 
 ## Tech Stack
 

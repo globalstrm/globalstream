@@ -154,7 +154,7 @@ export function TermsConditions() {
               </p>
               <p className="text-muted-foreground mt-4">
                 <strong>Global Stream</strong><br />
-                Phone: <a href="tel:8559450333" className="text-accent-blue hover:underline">(855) 945-0333</a><br />
+                Phone: <a href="tel:8556837625" className="text-accent-blue hover:underline">(855) 683-7625</a><br />
                 Available 24/7
               </p>
             </section>

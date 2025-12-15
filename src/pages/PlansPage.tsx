@@ -168,7 +168,7 @@ const PlansPage = () => {
                     ))}
                   </ul>
                   
-                  <a href="tel:8559450333">
+                  <a href="tel:8556837625">
                     <Button 
                       className={`w-full py-5 font-semibold ${
                         plan.popular 
@@ -378,10 +378,10 @@ const PlansPage = () => {
             Check if fiber is available at your address and sign up in minutes.
           </p>
           <a
-            href="tel:8559450333"
+            href="tel:8556837625"
             className="inline-block bg-accent-blue hover:bg-accent-blue/90 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105"
           >
-            Call (855) 945-0333
+            Call (855) 683-7625
           </a>
         </div>
       </section>

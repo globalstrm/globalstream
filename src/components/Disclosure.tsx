@@ -10,7 +10,7 @@ export function Disclosure({ variant = 'default' }: DisclosureProps) {
       <div className="text-background/60 text-sm leading-relaxed">
         <p className="font-semibold mb-2">Important Disclosure</p>
         <p>
-          Global Stream is an independent third-party service assistance platform. We are not affiliated with, endorsed by, or directly connected to any internet service provider, cable company, or telecommunications carrier. We provide assistance in finding and comparing available services in your area for a separate service fee. All trademarks, service marks, and company names mentioned are the property of their respective owners.
+          Global Stream is an independent third-party service assistance startup, launched in 2025, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. We provide assistance in finding and comparing available services in your area for a separate service fee. All trademarks, service marks, and company names mentioned are the property of their respective owners.
         </p>
       </div>
     )
@@ -33,7 +33,7 @@ export function Disclosure({ variant = 'default' }: DisclosureProps) {
         <div>
           <h3 className="text-lg font-bold text-foreground mb-2">Important Disclosure</h3>
           <p className="text-foreground/80 leading-relaxed">
-            Global Stream operates as an independent third-party service assistance platform. We are not affiliated with, endorsed by, or directly connected to any internet service provider, cable company, or telecommunications carrier. Our service helps you find and compare available connectivity options in your area. We charge a separate service fee for our assistance. All provider names and trademarks are the property of their respective owners.
+            Global Stream is an independent third-party service assistance startup, launched in 2025, and is not affiliated with, endorsed by, or sponsored by any cable, internet, or streaming service provider. Our service helps you find and compare available connectivity options in your area. We charge a separate service fee for our assistance. All provider names and trademarks are the property of their respective owners.
           </p>
         </div>
       </div>

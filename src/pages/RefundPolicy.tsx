@@ -20,7 +20,7 @@ export function RefundPolicy() {
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">1. Service Fee Refunds</h2>
               <p className="text-muted-foreground">
-                Global Stream's service assistance fees may be refunded within 7 days of payment if you have not yet been connected with a service provider. Once provider contact has been facilitated, our service fee is non-refundable as the assistance service has been provided.
+                Global Stream's service assistance fees may be refunded within 7 to 15 days of payment, depending on the type of assistance provided. If you have not yet been connected with a service provider, you are eligible for a refund within this timeframe. Once provider contact has been facilitated, our service fee is non-refundable as the assistance service has been provided.
               </p>
             </section>
 
@@ -30,10 +30,10 @@ export function RefundPolicy() {
                 To qualify for a service fee refund:
               </p>
               <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-                <li>Refund request must be made within 7 days of payment</li>
+                <li>Refund request must be made within 7 to 15 days of payment (timeframe depends on service type)</li>
                 <li>No provider connection has been facilitated</li>
                 <li>Request must be made in writing via email or phone</li>
-                <li>Equipment must be returned in good condition (if applicable)</li>
+                <li>Full eligibility details are outlined below</li>
               </ul>
             </section>
 

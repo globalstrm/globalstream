@@ -75,7 +75,7 @@ const AboutPage = () => {
                   providers, understand complex pricing, and make informed decisions.
                 </p>
                 <p>
-                  In 2020, we launched our independent service assistance platform to help customers 
+                  In 2025, we launched our independent service assistance platform to help customers 
                   navigate the complexity of choosing connectivity services. We built relationships 
                   with providers nationwide and developed expertise in understanding service options.
                 </p>

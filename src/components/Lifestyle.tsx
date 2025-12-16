@@ -57,10 +57,10 @@ export function Lifestyle() {
       icon: Video,
       color: "accent-purple",
       highlights: [
-        "4K/8K streaming ready",
-        "Multiple streams simultaneously",
-        "Unlimited data included",
-        "Zero buffering guaranteed"
+        "4K/8K streaming capable",
+        "Multiple device support",
+        "Unlimited data options",
+        "Smooth streaming experience"
       ],
       stats: [
         { label: "Quality", value: "8K" },

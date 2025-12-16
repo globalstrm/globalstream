@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { Menu, X, Phone } from 'lucide-react'
 import { useState, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import { Disclosure } from './Disclosure'
 
 export function Hero() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -193,7 +194,7 @@ export function Hero() {
               className="bg-accent-blue text-white font-semibold px-6 py-3 rounded-lg hover:bg-accent-blue/90 active:bg-accent-blue/80 gentle-animation mt-8 text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              (855) 683-7625
+              Get Assistance (855) 683-7625
             </a>
           </div>
         </div>
@@ -218,10 +219,10 @@ export function Hero() {
                 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.1]"
               >
                 <span className="block text-white mb-3">
-                  The Future of
+                  Find the Perfect
                 </span>
                 <span className="block bg-gradient-to-r from-accent-blue via-accent-emerald to-accent-purple bg-clip-text text-transparent">
-                  Internet Speed
+                  Internet Service
                 </span>
               </motion.h1>
               
@@ -231,7 +232,7 @@ export function Hero() {
                 transition={{ duration: 0.8, delay: 1.6 }}
                 className="text-white/90 text-base sm:text-lg lg:text-xl xl:text-2xl leading-relaxed max-w-2xl"
               >
-                Experience blazing-fast <span className="font-bold text-accent-blue">10 Gbps</span> fiber internet with zero contracts and 24/7 support
+                We help you compare and find available internet, cable, and streaming services in your area. Get expert assistance today.
               </motion.p>
               
               <motion.div 
@@ -244,40 +245,50 @@ export function Hero() {
                   href="tel:8556837625"
                   className="group bg-accent-blue hover:bg-accent-blue/90 text-white font-bold px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105 shadow-2xl hover:shadow-accent-blue/50 text-center flex items-center justify-center gap-2"
                 >
-                  Call (855) 683-7625
+                  Get Assistance (855) 683-7625
                   <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 </a>
                 <Link
                   to="/coverage"
                   className="bg-white/10 backdrop-blur-md border-2 border-white/30 hover:bg-white/20 text-white font-bold px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105 text-center"
                 >
-                  Check Coverage
+                  Check Your Area
                 </Link>
+              </motion.div>
+
+              {/* Disclosure - Above the Fold */}
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8, delay: 2 }}
+                className="pt-6"
+              >
+                <Disclosure variant="compact" />
               </motion.div>
 
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.8, delay: 2 }}
+                transition={{ duration: 0.8, delay: 2.2 }}
                 className="flex flex-wrap gap-6 pt-2"
               >
                 <div className="flex items-center gap-2 text-white/80">
                   <svg className="w-5 h-5 text-accent-emerald" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm font-medium">No Contracts</span>
+                  <span className="text-sm font-medium">Free Consultation</span>
                 </div>
                 <div className="flex items-center gap-2 text-white/80">
                   <svg className="w-5 h-5 text-accent-emerald" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm font-medium">Free Installation</span>
+                  <span className="text-sm font-medium">Compare Options</span>
                 </div>
                 <div className="flex items-center gap-2 text-white/80">
                   <svg className="w-5 h-5 text-accent-emerald" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm font-medium">99.9% Uptime</span>
+                  <span className="text-sm font-medium">Expert Guidance</span>
                 </div>
               </motion.div>
             </motion.div>
@@ -304,9 +315,9 @@ export function Hero() {
                       </svg>
                     </div>
                   </div>
-                  <h3 className="text-white text-sm font-medium mb-1">Download Speed</h3>
-                  <p className="text-white text-4xl font-black">10 Gbps</p>
-                  <p className="text-white/60 text-xs mt-2">Lightning fast fiber</p>
+                  <h3 className="text-white text-sm font-medium mb-1">Service Options</h3>
+                  <p className="text-white text-4xl font-black">1000+</p>
+                  <p className="text-white/60 text-xs mt-2">Plans to compare</p>
                 </motion.div>
 
                 {/* Customer Card */}
@@ -321,9 +332,9 @@ export function Hero() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-white text-sm font-medium mb-1">Happy Customers</h3>
-                  <p className="text-white text-3xl font-black">500K+</p>
-                  <p className="text-white/60 text-xs mt-2">Across 150+ cities</p>
+                  <h3 className="text-white text-sm font-medium mb-1">Customers Helped</h3>
+                  <p className="text-white text-3xl font-black">50K+</p>
+                  <p className="text-white/60 text-xs mt-2">Find the right service</p>
                 </motion.div>
 
                 {/* Rating Card */}
@@ -338,9 +349,9 @@ export function Hero() {
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   </div>
-                  <h3 className="text-white text-sm font-medium mb-1">Customer Rating</h3>
-                  <p className="text-white text-3xl font-black">4.9/5</p>
-                  <p className="text-white/60 text-xs mt-2">Industry leading</p>
+                  <h3 className="text-white text-sm font-medium mb-1">Customer Satisfaction</h3>
+                  <p className="text-white text-3xl font-black">4.8/5</p>
+                  <p className="text-white/60 text-xs mt-2">Trusted assistance</p>
                 </motion.div>
               </div>
             </motion.div>

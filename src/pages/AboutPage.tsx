@@ -70,19 +70,19 @@ const AboutPage = () => {
               <h2 className="text-4xl font-black text-foreground mb-6">Our Story</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Global Stream was born out of frustration. Our founders, tech industry veterans, 
-                  were tired of dealing with slow speeds, confusing pricing, and terrible customer 
-                  service from traditional ISPs.
+                  Global Stream was founded to simplify the overwhelming process of finding internet 
+                  and cable services. Our founders experienced firsthand how difficult it was to compare 
+                  providers, understand complex pricing, and make informed decisions.
                 </p>
                 <p>
-                  In 2015, we set out to build something different. We invested heavily in fiber 
-                  infrastructure, hired the best network engineers, and built a customer service 
-                  team that actually cares about solving problems.
+                  In 2020, we launched our independent service assistance platform to help customers 
+                  navigate the complexity of choosing connectivity services. We built relationships 
+                  with providers nationwide and developed expertise in understanding service options.
                 </p>
                 <p>
-                  Today, we serve over 500,000 customers across 150+ cities, and we're just getting 
-                  started. Our mission remains the same: deliver the fastest, most reliable internet 
-                  with transparent pricing and exceptional service.
+                  Today, we've helped over 50,000 customers find the right services for their needs. 
+                  As an independent third-party platform, our mission is clear: provide honest guidance, 
+                  transparent comparisons, and expert assistance without bias or affiliation.
                 </p>
               </div>
             </div>
@@ -164,16 +164,16 @@ const AboutPage = () => {
               <div className="w-20 h-20 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-xl font-black text-foreground mb-2">Best ISP 2024</h3>
-              <p className="text-muted-foreground text-sm">Awarded by TechRadar for exceptional service and speeds</p>
+              <h3 className="text-xl font-black text-foreground mb-2">Trusted Platform</h3>
+              <p className="text-muted-foreground text-sm">Independent assistance recognized for transparency</p>
             </div>
             
             <div className="bg-card clean-border rounded-2xl p-8 text-center">
               <div className="w-20 h-20 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-xl font-black text-foreground mb-2">#1 Customer Satisfaction</h3>
-              <p className="text-muted-foreground text-sm">J.D. Power - Three years running</p>
+              <h3 className="text-xl font-black text-foreground mb-2">High Satisfaction</h3>
+              <p className="text-muted-foreground text-sm">4.8/5 rating from customers we've assisted</p>
             </div>
             
             <div className="bg-card clean-border rounded-2xl p-8 text-center">

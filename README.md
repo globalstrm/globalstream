@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-# Global Stream Website
+# Global Stream Service Assistance Platform
 
-Lightning-fast fiber internet provider website built with React, TypeScript, and Vite.
+Independent third-party platform helping customers find and compare internet, cable, and streaming services.
 
 ## About Global Stream
 
-Global Stream provides ultra-fast fiber internet with speeds up to 10 Gbps, no contracts, 24/7 support, and 99.9% uptime guarantee.
+Global Stream is an independent service assistance platform that helps you find and compare available connectivity options in your area. We are not a service provider - we assist in finding the right services for your needs for a separate service fee.
 
 **Contact**: (855) 683-7625
 

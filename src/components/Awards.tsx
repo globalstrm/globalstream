@@ -27,9 +27,9 @@ export function Awards() {
     },
     {
       icon: Award,
-      value: "#1",
-      label: "Rated ISP",
-      description: "Best customer satisfaction 2024",
+      value: "4.8/5",
+      label: "Satisfaction",
+      description: "Customer satisfaction rating",
       color: "accent-blue"
     },
     {

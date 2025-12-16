@@ -8,36 +8,32 @@ export function FAQ() {
 
   const faqs = [
     {
-      question: "What speeds can I expect with Global Stream?",
-      answer: "Our fiber internet plans offer speeds ranging from 100 Mbps to 10 Gbps. The speed you experience depends on your chosen plan. We guarantee minimum speeds of 95% of advertised rates, which is among the best in the industry."
+      question: "Are you an official cable or internet provider?",
+      answer: "No, we are not a cable or internet provider. Global Stream is an independent third-party assistance platform. We help you compare and find service options available in your area, but we do not provide internet, cable, or streaming services ourselves."
     },
     {
-      question: "Is there a contract or commitment required?",
-      answer: "No! We believe in earning your business every month. All our plans are contract-free with no early termination fees. You can upgrade, downgrade, or cancel anytime."
+      question: "Do you sell internet, cable, or streaming plans?",
+      answer: "No, we don't sell plans directly. We provide assistance and guidance to help you understand and compare options from various providers. Any service you choose will be provided directly by the provider you select, not by us."
     },
     {
-      question: "How long does installation take?",
-      answer: "Most installations are completed within 2-4 hours. We offer same-day installation in many areas, and all installations are performed by our certified technicians at no extra cost."
+      question: "Do you charge for your services?",
+      answer: "Yes, we charge a service fee for our assistance platform. This fee is separate from any charges from service providers and covers our consultation, comparison services, and support. All fees are clearly disclosed before you agree to proceed."
     },
     {
-      question: "Do you have data caps?",
-      answer: "Absolutely not. All Global Stream plans come with truly unlimited data. Stream, game, work, and download as much as you want without worrying about overage charges or throttling."
+      question: "Will I still be billed by my service provider?",
+      answer: "Yes, absolutely. If you choose a service provider through our assistance, you will be billed directly by that provider for their services. Their billing is completely separate from our service fee. We do not handle provider payments or billing."
     },
     {
-      question: "What equipment is included?",
-      answer: "Every plan includes a high-performance WiFi router at no additional cost. Pro and Ultimate plans include WiFi 6/6E routers with mesh capability for whole-home coverage. You can also use your own equipment if preferred."
+      question: "Do you need my account passwords or sensitive information?",
+      answer: "No, we never request your provider account passwords or other sensitive credentials. Our assistance involves helping you compare options and understand service features. Any account setup or login information is handled directly between you and your chosen provider."
     },
     {
-      question: "What if I have technical issues?",
-      answer: "Our 24/7 technical support team is always ready to help. You can reach us via phone, chat, or email. Most issues are resolved remotely within minutes. If needed, we offer next-day technician visits at no charge."
+      question: "Which providers do you support?",
+      answer: "We can provide guidance on multiple internet, cable, and streaming providers that may be available in your area. We are not affiliated with, endorsed by, or representing any specific provider. Our goal is to help you compare your options independently."
     },
     {
-      question: "Can I bundle services?",
-      answer: "Yes! Bundle internet with our streaming TV and digital phone services to save up to 30% on your monthly bill. All bundles come with a single, simplified bill."
-    },
-    {
-      question: "Is fiber available in my area?",
-      answer: "We're rapidly expanding our fiber network across the country. Enter your address on our coverage page to check availability. If we're not in your area yet, join our waitlist to be notified when we arrive."
+      question: "Are your services refundable?",
+      answer: "We have a refund policy for our service fees. For complete details on eligibility, timeframes, and how to request a refund, please visit our Refund Policy page or contact us at (855) 683-7625."
     }
   ]
 
@@ -59,7 +55,7 @@ export function FAQ() {
           </h2>
           
           <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-            Everything you need to know about our internet services
+            Common questions about our service assistance platform
           </p>
         </div>
 

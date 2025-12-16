@@ -6,58 +6,58 @@ export function Features() {
   const features = [
     {
       id: 'speed',
-      title: "Lightning-Fast Speeds",
-      description: "Experience internet speeds up to 10 Gbps with our state-of-the-art fiber optic network. Download movies in seconds, stream in 8K, and game with zero lag.",
+      title: "Find High-Speed Options",
+      description: "We help you discover internet options with speeds up to 10 Gbps from providers in your area. Compare fiber, cable, and wireless services for streaming, gaming, and work.",
       image: "https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=800&q=80",
       icon: Zap,
       color: "accent-blue",
       benefits: [
-        "Download 4K movies in under 30 seconds",
-        "Stream on unlimited devices simultaneously",
-        "Experience sub-1ms latency for gaming",
-        "Upload large files instantly"
+        "Compare speed tiers available",
+        "Multi-device streaming guidance",
+        "Gaming service recommendations",
+        "Upload speed comparisons"
       ]
     },
     {
       id: 'security',
-      title: "Enterprise-Grade Security",
-      description: "Protect your home network with advanced security features including real-time threat detection, malware blocking, and encrypted connections for peace of mind.",
+      title: "Security Feature Guidance",
+      description: "Learn about security features offered by providers including threat detection, malware protection, and parental controls to keep your network safe.",
       image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80",
       icon: Shield,
       color: "accent-emerald",
       benefits: [
-        "24/7 real-time threat monitoring",
-        "Advanced parental controls",
-        "Automatic security updates",
-        "Military-grade 256-bit encryption"
+        "Compare security add-ons",
+        "Parental control options",
+        "Protection feature guidance",
+        "Encryption options explained"
       ]
     },
     {
       id: 'support',
-      title: "Award-Winning Support",
-      description: "Our dedicated support team is available 24/7 to help you with any questions or issues. Rated #1 in customer satisfaction three years running.",
+      title: "Expert Assistance Available",
+      description: "Our knowledgeable team is here to help you understand service options, compare providers, and make informed decisions about your connectivity needs.",
       image: "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&q=80",
       icon: Clock,
       color: "accent-purple",
       benefits: [
-        "Average response time under 5 minutes",
-        "US-based support specialists",
-        "Free professional installation",
-        "Lifetime technical support included"
+        "Quick response assistance",
+        "Service comparison help",
+        "Setup guidance provided",
+        "Ongoing support included"
       ]
     },
     {
       id: 'reliability',
-      title: "Unmatched Reliability",
-      description: "Built on a redundant fiber network with multiple failover systems, ensuring you stay connected when it matters most. Industry-leading 99.9% uptime guarantee.",
+      title: "Reliable Service Options",
+      description: "We guide you to providers with strong uptime records and redundant networks, helping you find reliable connectivity for your home or business.",
       image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80",
       icon: Award,
       color: "accent-blue",
       benefits: [
-        "99.9% uptime service level agreement",
-        "Redundant network infrastructure",
-        "Weather-resistant fiber technology",
-        "30-day money-back guarantee"
+        "Uptime record comparisons",
+        "Network reliability info",
+        "Service area coverage",
+        "Satisfaction guarantee options"
       ]
     }
   ]
@@ -77,7 +77,7 @@ export function Features() {
           </div>
           
           <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight mb-8 text-foreground">
-            <span className="block mb-2">The Difference Is</span>
+            <span className="block mb-2">How We Assist</span>
             <span className="block bg-gradient-to-r from-accent-blue to-accent-purple bg-clip-text text-transparent">
               Crystal Clear
             </span>
@@ -140,7 +140,7 @@ export function Features() {
 
                   {/* CTA Link */}
                   <a href="tel:8556837625" className={`text-${feature.color} font-semibold inline-flex items-center gap-2 group-hover:gap-3 transition-all`}>
-                    Call (855) 683-7625
+                    Get Assistance
                     <ArrowRight className="w-4 h-4" />
                   </a>
                 </div>

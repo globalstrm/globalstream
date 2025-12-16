@@ -83,7 +83,7 @@ export function Navbar() {
                 href="tel:8556837625"
                 className="hidden sm:block bg-accent-blue text-white font-semibold px-6 py-3 rounded-md hover:bg-accent-blue/90 gentle-animation"
               >
-                (855) 683-7625
+                Get Assistance
               </a>
 
               <button

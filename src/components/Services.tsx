@@ -9,80 +9,80 @@ export function Services() {
   const services = [
     {
       id: 'home',
-      title: "Home Internet",
-      description: "Experience lightning-fast fiber internet designed for modern households. Perfect for streaming 4K content, competitive gaming, and working from home.",
+      title: "Home Internet Assistance",
+      description: "We help you find high-speed internet options perfect for streaming, gaming, and remote work. Compare fiber, cable, and wireless providers in your area.",
       image: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=800&q=80",
       icon: Wifi,
       features: [
-        "Speeds up to 10 Gbps",
-        "Unlimited data usage",
-        "Free WiFi 6E router",
-        "No contracts required"
+        "Compare speeds & plans",
+        "Find unlimited data options",
+        "Equipment guidance",
+        "Contract comparisons"
       ]
     },
     {
       id: 'business',
-      title: "Business Solutions", 
-      description: "Enterprise-grade connectivity with dedicated support, guaranteed uptime SLAs, and scalable bandwidth to grow with your business.",
+      title: "Business Service Guidance", 
+      description: "Find enterprise-grade connectivity solutions for your business. We guide you through options for dedicated lines, scalable bandwidth, and uptime guarantees.",
       image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
       icon: Building2,
       features: [
-        "Dedicated fiber lines",
-        "99.99% uptime guarantee",
-        "24/7 priority support",
-        "Static IP addresses"
+        "Compare business plans",
+        "Dedicated line options",
+        "Support level guidance",
+        "Static IP availability"
       ]
     },
     {
       id: 'security',
-      title: "Network Security",
-      description: "Comprehensive protection for your home or business network with advanced threat detection, parental controls, and secure browsing.",
+      title: "Security Service Options",
+      description: "Learn about network security options available from providers. We help you understand protection features, parental controls, and secure browsing add-ons.",
       image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&q=80",
       icon: Shield,
       features: [
-        "Real-time threat protection",
-        "Advanced firewall",
-        "Parental controls",
-        "Malware blocking"
+        "Compare security features",
+        "Firewall options",
+        "Parental control availability",
+        "Protection add-ons"
       ]
     },
     {
       id: 'tv',
-      title: "Streaming TV",
-      description: "Premium TV packages with hundreds of channels, cloud DVR storage, and unlimited on-demand content from top streaming platforms.",
+      title: "TV & Streaming Guidance",
+      description: "Find the right TV and streaming options for your needs. Compare cable packages, streaming services, and bundle deals available in your area.",
       image: "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80",
       icon: Tv,
       features: [
-        "500+ HD channels",
-        "Cloud DVR included",
-        "Multi-device streaming",
-        "Premium add-ons available"
+        "Compare channel lineups",
+        "DVR options explained",
+        "Streaming service guides",
+        "Bundle comparisons"
       ]
     },
     {
       id: 'phone',
-      title: "Digital Phone",
-      description: "Crystal-clear VoIP service with unlimited calling across the US and Canada, plus advanced features like call forwarding and voicemail-to-email.",
+      title: "Phone Service Options",
+      description: "Explore digital phone service options including VoIP and landline alternatives. We help you compare calling plans and features available through providers.",
       image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80",
       icon: Phone,
       features: [
-        "Unlimited calling",
-        "International plans",
-        "Advanced voicemail",
-        "Call forwarding"
+        "Compare calling plans",
+        "International options",
+        "Feature comparisons",
+        "VoIP guidance"
       ]
     },
     {
       id: 'cloud',
-      title: "Cloud Backup",
-      description: "Automatic backup for all your devices with military-grade encryption, ensuring your important files are always safe and accessible.",
+      title: "Cloud Service Guidance",
+      description: "Learn about cloud storage and backup options available through service providers. We guide you through storage plans, security features, and pricing.",
       image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&q=80",
       icon: Cloud,
       features: [
-        "Unlimited storage",
-        "Automatic backups",
-        "256-bit encryption",
-        "Version history"
+        "Compare storage plans",
+        "Backup option guidance",
+        "Security feature info",
+        "Plan comparisons"
       ]
     }
   ]
@@ -111,13 +111,13 @@ export function Services() {
           <h2 className={`text-5xl sm:text-6xl lg:text-7xl font-black leading-tight mb-6 text-foreground transform transition-all duration-1000 delay-200 ${
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
           }`}>
-            Our Services
+            How We Help
           </h2>
           
           <p className={`text-2xl lg:text-3xl text-muted-foreground max-w-4xl mx-auto leading-relaxed transform transition-all duration-1000 delay-400 ${
             isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
           }`}>
-            Everything you need for a connected lifestyle
+            Expert guidance to find the right connectivity solutions
           </p>
         </div>
 
@@ -176,7 +176,7 @@ export function Services() {
                   <div className="pt-4">
                     <a href="tel:8556837625">
                       <button className="bg-accent-blue hover:bg-accent-blue/90 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 inline-flex items-center gap-2">
-                        Call (855) 683-7625
+                        Get Assistance (855) 683-7625
                         <span>→</span>
                       </button>
                     </a>

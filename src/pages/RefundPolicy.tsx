@@ -1,5 +1,6 @@
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
+import { Disclosure } from '@/components/Disclosure'
 
 export function RefundPolicy() {
   return (
@@ -9,67 +10,70 @@ export function RefundPolicy() {
       <div className="pt-32 pb-20">
         <div className="container mx-auto px-6 sm:px-8 lg:px-12 max-w-4xl">
           <h1 className="text-4xl sm:text-5xl font-black text-foreground mb-6">Refund Policy</h1>
-          <p className="text-muted-foreground mb-8">Last Updated: December 3, 2025</p>
+          <p className="text-muted-foreground mb-8">Last Updated: December 16, 2025</p>
+          
+          <div className="mb-10">
+            <Disclosure />
+          </div>
           
           <div className="prose prose-lg max-w-none space-y-8">
             <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">1. 30-Day Money-Back Guarantee</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">1. Service Fee Refunds</h2>
               <p className="text-muted-foreground">
-                Global Stream offers a 30-day money-back guarantee for new residential customers. If you're not completely satisfied with our service within the first 30 days, we'll refund your monthly service fees—no questions asked.
+                Global Stream's service assistance fees may be refunded within 7 days of payment if you have not yet been connected with a service provider. Once provider contact has been facilitated, our service fee is non-refundable as the assistance service has been provided.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">2. Eligibility Requirements</h2>
               <p className="text-muted-foreground mb-4">
-                To qualify for a refund:
+                To qualify for a service fee refund:
               </p>
               <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-                <li>You must be a new residential customer</li>
-                <li>The refund request must be made within 30 days of service activation</li>
-                <li>Your account must be in good standing with no outstanding balance</li>
+                <li>Refund request must be made within 7 days of payment</li>
+                <li>No provider connection has been facilitated</li>
+                <li>Request must be made in writing via email or phone</li>
                 <li>Equipment must be returned in good condition (if applicable)</li>
               </ul>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">3. Non-Refundable Charges</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">3. Provider Service Refunds</h2>
               <p className="text-muted-foreground mb-4">
-                The following charges are non-refundable:
+                Refunds for services purchased from providers are subject to each provider's individual refund policy:
               </p>
               <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-                <li>Installation fees (waived for eligible customers)</li>
-                <li>Equipment purchase fees (equipment must be returned or purchased)</li>
-                <li>Third-party service charges</li>
-                <li>Taxes and regulatory fees</li>
-                <li>Usage-based charges outside your plan limits</li>
+                <li>Provider refund requests must be made directly with the provider</li>
+                <li>Each provider has their own terms and timeframes</li>
+                <li>Global Stream cannot process refunds for provider services</li>
+                <li>We can provide guidance on how to contact your provider</li>
               </ul>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">4. How to Request a Refund</h2>
               <p className="text-muted-foreground mb-4">
-                To request a refund, please contact our customer service team:
+                To request a refund of your Global Stream service fee:
               </p>
               <ul className="list-disc pl-6 text-muted-foreground space-y-2">
                 <li>Call us at <a href="tel:8556837625" className="text-accent-blue hover:underline">(855) 683-7625</a></li>
-                <li>Provide your account number and reason for cancellation</li>
-                <li>Schedule equipment return (if applicable)</li>
-                <li>Confirm your refund processing details</li>
+                <li>Email us with your account details and reason for refund request</li>
+                <li>Provide documentation if applicable</li>
+                <li>Allow 7-10 business days for processing</li>
               </ul>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">5. Processing Time</h2>
               <p className="text-muted-foreground">
-                Refunds are typically processed within 7-10 business days after we receive your cancellation request and any required equipment returns. The refund will be credited to your original payment method. Please allow an additional 5-7 business days for the credit to appear on your statement.
+                Refunds are typically processed within 7-10 business days after approval. The refund will be credited to your original payment method. Please allow an additional 3-5 business days for the credit to appear on your statement depending on your financial institution.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-foreground mb-4">6. Service Interruptions</h2>
+              <h2 className="text-2xl font-bold text-foreground mb-4">6. Questions About This Policy</h2>
               <p className="text-muted-foreground">
-                If you experience service interruptions or outages that last longer than 24 hours due to issues on our end, you may be eligible for a prorated credit on your monthly bill. Contact customer service to report the issue and request a credit.
+                If you have questions about our refund policy or need assistance with a refund request, please contact us. Our team is here to help ensure you understand your options and the refund process.
               </p>
             </section>
 

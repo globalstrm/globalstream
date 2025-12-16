@@ -6,43 +6,43 @@ export function Testimonials() {
   const testimonials = [
     {
       name: "Sarah Mitchell",
-      role: "Work From Home Professional",
-      content: "Switching to Global Stream was the best decision for my remote work. Video calls are crystal clear, and I never experience lag during important meetings.",
+      role: "Remote Professional",
+      content: "Global Stream helped me find the perfect internet plan for my work-from-home setup. Their guidance made comparing providers so much easier.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face"
     },
     {
       name: "David Chen",
       role: "Gaming Enthusiast",
-      content: "Finally, an ISP that delivers on their speed promises! My ping is consistently low, and downloads are lightning fast. Perfect for competitive gaming.",
+      content: "The team helped me understand which providers offer the low latency I need for gaming. Their expertise saved me hours of research.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
     },
     {
       name: "Emily Rodriguez",
       role: "Family of 5",
-      content: "With 3 kids streaming, gaming, and doing homework simultaneously, we needed reliable internet. Global Stream handles it all without breaking a sweat!",
+      content: "With multiple devices in our household, finding the right plan was overwhelming. Global Stream made it simple and answered all our questions.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
     },
     {
       name: "Michael Thompson",
       role: "Small Business Owner",
-      content: "The business plan has been rock solid for our team. Their customer support is exceptional - they resolved our setup questions within minutes.",
+      content: "Their assistance finding business internet options was invaluable. They explained the differences between providers and helped me make an informed choice.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
     },
     {
       name: "Lisa Park",
       role: "Content Creator",
-      content: "Uploading 4K videos used to take hours. Now with the 1Gbps upload speeds, I can focus on creating instead of waiting. Game changer!",
+      content: "I needed high upload speeds for my video work. Global Stream guided me to providers with plans that fit my specific needs perfectly.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face"
     },
     {
       name: "James Wilson",
-      role: "Smart Home Enthusiast",
-      content: "My entire home is connected - security cameras, smart devices, everything. Global Stream keeps it all running smoothly 24/7.",
+      role: "Tech Enthusiast",
+      content: "Great service! They helped me compare all available options in my area and explained the pros and cons of each provider clearly.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face"
     }

@@ -7,32 +7,30 @@ const AboutPage = () => {
     {
       icon: Target,
       title: "Our Mission",
-      description: "To connect every home and business with reliable, affordable, ultra-fast internet that empowers people to do more."
+      description: "To help every customer make informed decisions about internet and cable services through honest guidance and transparent comparisons."
     },
     {
       icon: Eye,
       title: "Our Vision",
-      description: "A world where everyone has access to the internet infrastructure they need to thrive in the digital age."
+      description: "A marketplace where finding connectivity services is simple, clear, and free from confusion or misleading claims."
     },
     {
       icon: Heart,
       title: "Our Values",
-      description: "Transparency, reliability, and customer-first thinking guide every decision we make as a company."
+      description: "Independence, transparency, and education-first assistance guide every interaction we have with customers."
     },
     {
       icon: Award,
-      title: "Our Promise",
-      description: "We deliver on our speed promises, provide honest pricing, and stand behind our service with a 30-day guarantee."
+      title: "Our Commitment",
+      description: "We provide unbiased guidance, never claim affiliation with providers, and charge transparent service fees for our assistance."
     }
   ]
 
   const milestones = [
-    { year: "2015", event: "Global Stream founded in San Francisco" },
-    { year: "2017", event: "Expanded to 10 cities, reached 50,000 customers" },
-    { year: "2019", event: "Launched 1 Gbps residential plans nationwide" },
-    { year: "2021", event: "Hit 250,000 customers, introduced business solutions" },
-    { year: "2023", event: "Expanded to 150+ cities, launched 10 Gbps service" },
-    { year: "2024", event: "Reached 500,000+ happy customers" }
+    { quarter: "Q1 2025", event: "Global Stream assistance platform launched" },
+    { quarter: "Q2 2025", event: "Helped first 5,000 customers compare service options" },
+    { quarter: "Q3 2025", event: "Expanded coverage database to nationwide providers" },
+    { quarter: "Q4 2025", event: "Reached 50,000+ customers assisted milestone" }
   ]
 
   return (
@@ -55,8 +53,8 @@ const AboutPage = () => {
               About Global Stream
             </h1>
             <p className="text-base sm:text-lg lg:text-xl text-white leading-relaxed max-w-2xl drop-shadow-md">
-              We started with a simple belief: everyone deserves fast, reliable internet 
-              without the hassle of contracts, hidden fees, or poor customer service.
+              A new kind of service assistance platform, launched in 2025 to help customers 
+              navigate the confusing world of internet and cable providers with honest, independent guidance.
             </p>
           </div>
         </div>
@@ -70,19 +68,19 @@ const AboutPage = () => {
               <h2 className="text-4xl font-black text-foreground mb-6">Our Story</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Global Stream was founded to simplify the overwhelming process of finding internet 
-                  and cable services. Our founders experienced firsthand how difficult it was to compare 
-                  providers, understand complex pricing, and make informed decisions.
+                  Shopping for internet and cable services shouldn't feel like navigating a maze. 
+                  Comparing providers, decoding pricing structures, and understanding what's actually 
+                  available in your area is unnecessarily complex.
                 </p>
                 <p>
-                  In 2025, we launched our independent service assistance platform to help customers 
-                  navigate the complexity of choosing connectivity services. We built relationships 
-                  with providers nationwide and developed expertise in understanding service options.
+                  In early 2025, we launched Global Stream as an independent third-party assistance platform 
+                  to solve this problem. We don't sell services or partner with providers—we simply help 
+                  customers understand their options through education and comparison.
                 </p>
                 <p>
-                  Today, we've helped over 50,000 customers find the right services for their needs. 
-                  As an independent third-party platform, our mission is clear: provide honest guidance, 
-                  transparent comparisons, and expert assistance without bias or affiliation.
+                  Since our launch, we've assisted over 50,000 customers in finding connectivity solutions 
+                  that fit their needs. As a startup, our focus is on building trust through transparency, 
+                  providing value through expertise, and maintaining complete independence from providers.
                 </p>
               </div>
             </div>
@@ -127,16 +125,16 @@ const AboutPage = () => {
       <section className="py-20">
         <div className="container mx-auto px-6 sm:px-8 lg:px-12">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-black text-foreground mb-4">Our Journey</h2>
-            <p className="text-muted-foreground text-lg">Key milestones in our growth</p>
+            <h2 className="text-4xl font-black text-foreground mb-4">Our Journey in 2025</h2>
+            <p className="text-muted-foreground text-lg">Key milestones in our first year</p>
           </div>
           
           <div className="max-w-3xl mx-auto">
             {milestones.map((milestone, index) => (
-              <div key={milestone.year} className="flex gap-6 mb-8">
+              <div key={milestone.quarter} className="flex gap-6 mb-8">
                 <div className="flex flex-col items-center">
-                  <div className="w-16 h-16 bg-accent-blue rounded-full flex items-center justify-center text-white font-black">
-                    {milestone.year}
+                  <div className="w-16 h-16 bg-accent-blue rounded-full flex items-center justify-center text-white font-bold text-sm">
+                    {milestone.quarter}
                   </div>
                   {index < milestones.length - 1 && (
                     <div className="w-0.5 h-full bg-border mt-2" />
@@ -155,8 +153,8 @@ const AboutPage = () => {
       <section className="py-20 bg-gradient-to-b from-background to-muted/30">
         <div className="container mx-auto px-6 sm:px-8 lg:px-12">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-black text-foreground mb-4">Awards & Recognition</h2>
-            <p className="text-muted-foreground text-lg">Industry-leading excellence acknowledged by experts</p>
+            <h2 className="text-4xl font-black text-foreground mb-4">Recognition & Trust</h2>
+            <p className="text-muted-foreground text-lg">Building credibility as a new assistance platform</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -180,35 +178,35 @@ const AboutPage = () => {
               <div className="w-20 h-20 bg-gradient-to-br from-purple-400 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Award className="w-10 h-10 text-white" />
               </div>
-              <h3 className="text-xl font-black text-foreground mb-2">Innovation Award</h3>
-              <p className="text-muted-foreground text-sm">Tech Innovation Summit for fiber infrastructure</p>
+              <h3 className="text-xl font-black text-foreground mb-2">Startup Recognition</h3>
+              <p className="text-muted-foreground text-sm">Featured in 2025 Tech Innovation launches</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Technology Section */}
+      {/* How We Help Section */}
       <section className="py-20">
         <div className="container mx-auto px-6 sm:px-8 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80"
-                alt="Fiber optic technology"
+                alt="Service comparison platform"
                 className="rounded-3xl elevated-shadow"
               />
               <div className="absolute -bottom-6 -right-6 bg-accent-blue text-white p-6 rounded-2xl elevated-shadow">
-                <div className="text-3xl font-black mb-1">99.9%</div>
-                <div className="text-sm">Network Uptime</div>
+                <div className="text-3xl font-black mb-1">50K+</div>
+                <div className="text-sm">Customers Assisted</div>
               </div>
             </div>
             
             <div>
-              <h2 className="text-4xl font-black text-foreground mb-6">Built on Cutting-Edge Technology</h2>
+              <h2 className="text-4xl font-black text-foreground mb-6">How We Provide Assistance</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Our network is powered by 100% fiber optic cables, delivering symmetrical gigabit speeds 
-                with industry-leading reliability. We continuously invest in infrastructure upgrades to 
-                stay ahead of the curve.
+                Our platform connects customers with information about available internet, cable, and 
+                streaming options. We educate, compare, and guide—but we never sell services directly 
+                or claim to represent providers.
               </p>
               
               <div className="space-y-4">
@@ -217,8 +215,8 @@ const AboutPage = () => {
                     <Zap className="w-6 h-6 text-accent-blue" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-foreground mb-1">100% Fiber Network</h4>
-                    <p className="text-sm text-muted-foreground">Pure fiber from our data center to your home</p>
+                    <h4 className="font-bold text-foreground mb-1">Provider Database</h4>
+                    <p className="text-sm text-muted-foreground">Access to nationwide provider coverage and plan information</p>
                   </div>
                 </div>
                 
@@ -227,8 +225,8 @@ const AboutPage = () => {
                     <Shield className="w-6 h-6 text-accent-emerald" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-foreground mb-1">Redundant Infrastructure</h4>
-                    <p className="text-sm text-muted-foreground">Multiple failover systems ensure continuous service</p>
+                    <h4 className="font-bold text-foreground mb-1">Independent Guidance</h4>
+                    <p className="text-sm text-muted-foreground">No provider partnerships or biased recommendations</p>
                   </div>
                 </div>
                 
@@ -237,8 +235,8 @@ const AboutPage = () => {
                     <Eye className="w-6 h-6 text-accent-purple" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-foreground mb-1">24/7 Network Monitoring</h4>
-                    <p className="text-sm text-muted-foreground">Real-time monitoring and proactive maintenance</p>
+                    <h4 className="font-bold text-foreground mb-1">Transparent Service Fees</h4>
+                    <p className="text-sm text-muted-foreground">Clear pricing for our assistance, separate from provider charges</p>
                   </div>
                 </div>
               </div>
@@ -247,39 +245,42 @@ const AboutPage = () => {
         </div>
       </section>
 
-      {/* Community Impact Section */}
+      {/* Our Commitment Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-6 sm:px-8 lg:px-12">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-black text-foreground mb-4">Giving Back to Communities</h2>
+            <h2 className="text-4xl font-black text-foreground mb-4">Our Commitment to Customers</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              We believe in using our technology to make a positive impact in the communities we serve
+              As a new startup, we're building our reputation on honesty, transparency, and education-first service
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-background clean-border rounded-2xl p-6">
-              <h3 className="text-2xl font-black text-foreground mb-3">Digital Education</h3>
+              <h3 className="text-2xl font-black text-foreground mb-3">Independent Platform</h3>
               <p className="text-muted-foreground mb-4">
-                Free internet for 10,000+ students from low-income families to support remote learning
+                We maintain complete independence from all providers and never claim affiliation, endorsement, 
+                or authorization to represent any company.
               </p>
-              <div className="text-accent-blue font-bold">Since 2020</div>
+              <div className="text-accent-blue font-bold">100% Independent</div>
             </div>
             
             <div className="bg-background clean-border rounded-2xl p-6">
-              <h3 className="text-2xl font-black text-foreground mb-3">Small Business Support</h3>
+              <h3 className="text-2xl font-black text-foreground mb-3">Transparent Fees</h3>
               <p className="text-muted-foreground mb-4">
-                Subsidized high-speed internet for local nonprofits and community organizations
+                Our service fees are clearly disclosed upfront and are separate from provider charges. 
+                We never hide costs or add surprise fees.
               </p>
-              <div className="text-accent-emerald font-bold">200+ Organizations</div>
+              <div className="text-accent-emerald font-bold">Always Disclosed</div>
             </div>
             
             <div className="bg-background clean-border rounded-2xl p-6">
-              <h3 className="text-2xl font-black text-foreground mb-3">Environmental Commitment</h3>
+              <h3 className="text-2xl font-black text-foreground mb-3">Education Focus</h3>
               <p className="text-muted-foreground mb-4">
-                Carbon-neutral operations and energy-efficient data centers powered by renewable energy
+                We educate customers about their options, help them understand plans and pricing, 
+                and guide them to make informed decisions.
               </p>
-              <div className="text-accent-purple font-bold">100% Renewable</div>
+              <div className="text-accent-purple font-bold">Customer Empowerment</div>
             </div>
           </div>
         </div>

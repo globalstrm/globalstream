@@ -77,7 +77,7 @@ export function Hero() {
   ]
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-black pt-8">
+    <div className="relative min-h-screen h-[110vh] w-full overflow-hidden bg-black pt-8">
       {/* Spacer for Navbar */}
       <div className="h-20 w-full" />
 
@@ -203,7 +203,7 @@ export function Hero() {
       {/* Hero Content - Asymmetric Split Layout */}
       <div className="absolute inset-0 z-40">
         <div className="container mx-auto px-4 sm:px-6 lg:px-12 h-full">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center h-full pt-20 sm:pt-24 lg:pt-0">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center h-full pt-28 sm:pt-32 lg:pt-24">
             
             {/* Left Side - Main Content (60%) */}
             <motion.div

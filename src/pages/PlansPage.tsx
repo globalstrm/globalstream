@@ -342,7 +342,7 @@ const PlansPage = () => {
                     </li>
                   </ul>
                   <button className="bg-white hover:bg-white/90 text-accent-blue font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105">
-                    Contact Sales Team
+                    <a href="tel:8556837625" className="text-accent-blue">Call Now</a>
                   </button>
                 </div>
                 

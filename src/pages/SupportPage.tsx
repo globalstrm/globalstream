@@ -70,7 +70,7 @@ const SupportPage = () => {
                   className="w-full px-6 py-4 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-accent-blue"
                 />
                 <Button className="absolute right-2 top-1/2 -translate-y-1/2 bg-accent-blue hover:bg-accent-blue/90">
-                  Search
+                  <a href="tel:8556837625" className="text-white">Call Now</a>
                 </Button>
               </div>
             </div>
@@ -146,7 +146,7 @@ const SupportPage = () => {
                   Check if you are getting the speeds you are paying for with our free speed test tool.
                 </p>
                 <Button className="bg-white text-accent-blue hover:bg-white/90 font-semibold px-8 py-6 text-lg">
-                  Run Speed Test
+                  <a href="tel:8556837625" className="text-accent-blue">Call Now</a>
                 </Button>
               </div>
             </div>

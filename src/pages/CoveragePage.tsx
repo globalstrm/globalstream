@@ -363,7 +363,7 @@ const CoveragePage = () => {
               className="flex-1 px-6 py-4 rounded-xl focus:outline-none focus:ring-2 focus:ring-white"
             />
             <Button className="bg-white hover:bg-white/90 text-accent-blue font-semibold px-8">
-              Join Waitlist
+              <a href="tel:8556837625" className="text-accent-blue">Call Now</a>
             </Button>
           </div>
           <p className="text-white/70 text-sm mt-4">Over 50,000 people already on the waitlist</p>

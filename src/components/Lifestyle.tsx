@@ -229,12 +229,12 @@ export function Lifestyle() {
                 </div>
 
                 {/* CTA */}
-                <Link to="/plans">
+                <a href="tel:8556837625">
                   <button className={`bg-${activeCase.color} hover:opacity-90 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 inline-flex items-center gap-2 w-fit`}>
-                    Explore Plans
+                    Call Now (855) 683-7625
                     <ArrowRight className="w-5 h-5" />
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -251,16 +251,16 @@ export function Lifestyle() {
                 Experience internet that truly works for you—no compromises, no limits
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link to="/plans">
+                <a href="tel:8556837625">
                   <button className="bg-gradient-to-r from-accent-blue to-accent-purple hover:opacity-90 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105">
-                    View All Plans
+                    Call Now
                   </button>
-                </Link>
-                <Link to="/coverage">
+                </a>
+                <a href="tel:8556837625">
                   <button className="bg-card hover:bg-muted border border-border text-foreground font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105">
-                    Check Coverage
+                    Call for Coverage
                   </button>
-                </Link>
+                </a>
               </div>
             </div>
           </div>

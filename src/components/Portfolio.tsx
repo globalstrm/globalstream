@@ -125,9 +125,8 @@ export function Portfolio() {
                       ? 'bg-accent-blue hover:bg-accent-blue/90 text-white' 
                       : 'bg-foreground hover:bg-foreground/90 text-background'
                   }`}
-                  onClick={() => window.location.href = 'tel:8556837625'}
                 >
-                  Request Help
+                  <a href="tel:8556837625" className={plan.popular ? 'text-white' : 'text-background'}>Call Now (855) 683-7625</a>
                 </Button>
               </div>
             </div>

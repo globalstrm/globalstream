@@ -248,12 +248,12 @@ export function Hero() {
                   Get Assistance (855) 683-7625
                   <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 </a>
-                <Link
-                  to="/coverage"
-                  className="bg-white/10 backdrop-blur-md border-2 border-white/30 hover:bg-white/20 text-white font-bold px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105 text-center"
+                <a
+                  href="tel:8556837625"
+                  className="bg-white/10 backdrop-blur-md border-2 border-white/30 hover:bg-white/20 text-white font-bold px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105 text-center block"
                 >
-                  Check Your Area
-                </Link>
+                  Call Now (855) 683-7625
+                </a>
               </motion.div>
 
               {/* Disclosure - Above the Fold */}
